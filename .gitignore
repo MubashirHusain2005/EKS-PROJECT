@@ -10,3 +10,11 @@ terraform.tfstate.*
 .DS_Store
 .vscode/
 .idea/
+
+# Terraform
+**/.terraform/
+terraform.tfstate
+terraform.tfstate.*
+*.tfvars
+*.tfplan
+
