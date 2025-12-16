@@ -1,1 +1,12 @@
 .sass-cache/
+# Terraform
+**/.terraform/
+terraform.tfstate
+terraform.tfstate.*
+*.tfvars
+*.tfplan
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
