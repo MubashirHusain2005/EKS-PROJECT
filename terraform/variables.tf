@@ -19,11 +19,12 @@ variable "vpc_id" {
 }
 
 variable "cluster_name" {
-  type = string
-  default = "aws_eks_cluster.eks-cluster.name"
+  type    = string
+  default = "my-eks-cluster"
 }
 
 variable "nodes_name" {
-  type = string
+  type    = string
   default = "eks-nodes"
 }
+
